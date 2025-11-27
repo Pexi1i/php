@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let cotainer = document.createElement("div");
+    let p = document.createElement("p");
+    cotainer.appendchild(p);
+    p.innerHTML="akapit";
+    let span = document.createElement("span");
+    p.after(span);
+    console.log(cotainer.outerHTML);
+    // "<div><p></p><span></span></div>"
+    </script>
+</body>
+</html>

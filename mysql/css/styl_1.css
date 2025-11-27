@@ -1,0 +1,14 @@
+body {
+    background-color: #F6E5DC;
+    font-family: Verdana,sans-serif;
+}
+.baner {
+    background-color: #2f180c;
+    text-align: center;
+    color: khaki;
+    height: 60px;
+}
+.lewy{
+    float: left;
+    width: 60%;
+}

@@ -1,0 +1,19 @@
+// napisz skrypt który po klknieciu w przycisk tworzy nowy naglowek h1 i wpisuje do niego swoje imie
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1">nagłówek</h1>
+
+    <button id="butt" onclick="changetext(h1)">zmien</button>
+    <script>
+        function changeText(id){
+            id.innerHTML="Patryk";
+        }
+    </script>
+</body>
+</html>

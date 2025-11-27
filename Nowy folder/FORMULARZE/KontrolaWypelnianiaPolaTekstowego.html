@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>sprawdzanie czy pole jest uzupełnione</h2>
+    <form name="myForm" id="form1" action="/action.php"
+    onsubmit="return validateform()" method="post">
+    <input for="fname">First name</input>
+    <input type="text" id="fname" name="fname"></input>
+    <input type="submit" value="wyślij">
+    </form>
+<script>
+    function validateform(){
+        let inputField=document.querySelector("#fname").value;
+        if (inputField==""){
+            alert("to pole nie może być puste");
+            return false;
+        }
+    }
+</script>
+
+</body>
+</html>
