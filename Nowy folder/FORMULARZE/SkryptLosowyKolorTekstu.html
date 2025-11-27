@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Losowy kolor tekstu</title>
+</head>
+<body>
+<script>
+function myFunction(){
+    let akapit=document.getElementById("akapit")
+    let kolor=math.floor(Math.random()*255);
+    akapit.style.color = `rgb(${kolor}, 0,0)`;
+}
+setInterval(myFunction, 1000);
+<p id="akapit">To jest kolorowy akapit</p>
+</script>
+<p id="akapit">To jest kolorowy akapit</p>
+
+</body>
+</html>
